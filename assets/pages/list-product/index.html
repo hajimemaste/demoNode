@@ -1,0 +1,2642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="../list-product/style.css" />
+    <title>FptShope</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <a href="./../../../index.html" class="header__logo"></a>
+        <div class="header__input">
+          <input
+            type="text"
+            placeholder="Nhập nên điện thoại, máy tính, phụ kiện... cần tìm"
+          />
+          <button class="header__search">
+            <i class="fa-solid fa-magnifying-glass" title="Tìm kiếm"></i>
+          </button>
+        </div>
+        <ul class="header__top-menu">
+          <li class="header__top-item">
+            <i class="fa-regular fa-file-lines"></i>
+            <p class="textBody">Thông tin hay</p>
+            <div class="header__top-dropdown-inf">
+              <ul class="header__top-dropdown-list">
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Tin mới</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Khuyến mãi</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Điện máy - gia dụng</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Thủ thuật</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">For Gamers</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Video hot</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Đánh giá tư vấn</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">App & Game</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Sự kiện</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__top-item">
+            <i class="fa-solid fa-file-circle-check"></i>
+            <p class="textBody">Thanh toán & tiện ích</p>
+          </li>
+          <li class="header__top-item">
+            <i class="fa-solid fa-circle-user"></i>
+            <p class="textBody">Tài khoản của tôi</p>
+          </li>
+          <li class="header__top-item">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="textBody">Giỏ hàng</p>
+          </li>
+        </ul>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <a href="" class="textBody">ĐIỆN THOẠI</a>
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-mobile">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">HÃNG SẢN XUẤT</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Apple (Iphone)</a>
+                  <a href="#!" class="textBody">SamSung</a>
+                  <a href="#!" class="textBody">OPPO</a>
+                  <a href="#!" class="textBody">Xiaomi</a>
+                  <a href="#!" class="textBody">Realme</a>
+                  <a href="#!" class="textBody">Vivo</a>
+                  <a href="#!" class="textBody">Asus</a>
+                  <a href="#!" class="textBody">Masstel</a>
+                  <a href="#!" class="textBody">Nokia</a>
+                </div>
+              </div>
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">
+                  ĐỒNG HỒ THÔNG MINH
+                </h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Apple Watch</a>
+                  <a href="#!" class="textBody">Samsung</a>
+                  <a href="#!" class="textBody">Garmin</a>
+                  <a href="#!" class="textBody">Masstel</a>
+                  <a href="#!" class="textBody">Xiaomi</a>
+                  <a href="#!" class="textBody">Amazfit</a>
+                  <a href="#!" class="textBody">Huawei</a>
+                  <a href="#!" class="textBody">Oppo</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-price-mobile">
+              <h2 class="header__bottom-dropdown-heading">MỨC GIÁ</h2>
+              <div class="header__bottom-dropdown-price-content">
+                <a href="#!" class="textBody">Dưới 2 triệu</a>
+                <a href="#!" class="textBody">Từ 2 - 4 triệu</a>
+                <a href="#!" class="textBody">Từ 4 - 7 triệu</a>
+                <a href="#!" class="textBody">Từ 7 - 13 triệu</a>
+                <a href="#!" class="textBody">Trên 13 triệu</a>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-salehot-mobile">
+              <h2 class="header__bottom-dropdown-heading">BÁN CHẠY NHẤT</h2>
+              <div class="header__bottom-dropdown-salehot-content">
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/23/638204338060590865_samsung-galaxy-a34-dd-moi.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Samsung Galaxy A34 5G</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      7.370.000 ₫
+                    </p>
+                  </div>
+                </div>
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/24/638152739283440892_xiaomi-redmi-note-12-dd-bh.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Xiaomi Redmi Note 12 4GB-128GB</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      4.490.000 ₫
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/15/638197614615482029_H4_248x248%20(2).png"
+              alt=""
+              class="header__bottom-dropdown-img-mobile"
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-laptop"></i>
+          <a href="./../list-laptop/index.html" class="textBody">LAPTOP</a>
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-laptop">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">HÃNG SẢN XUẤT</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Apple (MacBook)</a>
+                  <a href="#!" class="textBody">Asus</a>
+                  <a href="#!" class="textBody">MSI</a>
+                  <a href="#!" class="textBody">HP</a>
+                  <a href="#!" class="textBody">Lenovo</a>
+                  <a href="#!" class="textBody">Acer</a>
+                  <a href="#!" class="textBody">Dell</a>
+                  <a href="#!" class="textBody">Gigabyte</a>
+                  <a href="#!" class="textBody">Masstel</a>
+                  <a href="#!" class="textBody">Microsoft (Surface)</a>
+                  <a href="#!" class="textBody">Chuwi</a>
+                  <a href="#!" class="textBody">LG</a>
+                </div>
+              </div>
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">PHẦN MỀM</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Diệt Virus</a>
+                  <a href="#!" class="textBody">Microsoft Office</a>
+                  <a href="#!" class="textBody">Windows</a>
+                  <a href="#!" class="textBody">Phần mềm khác</a>
+                </div>
+              </div>
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">MÁY IN</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">HP</a>
+                  <a href="#!" class="textBody">Canon</a>
+                  <a href="#!" class="textBody">Brother</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-price-laptop">
+              <h2 class="header__bottom-dropdown-heading">MỨC GIÁ</h2>
+              <div class="header__bottom-dropdown-price-content">
+                <a href="#!" class="textBody">Dưới 5 triệu</a>
+                <a href="#!" class="textBody">Từ 5 - 10 triệu</a>
+                <a href="#!" class="textBody">Từ 10 - 15 triệu</a>
+                <a href="#!" class="textBody">Từ 15 - 20 triệu</a>
+                <a href="#!" class="textBody">Từ 20 - 25 triệu</a>
+                <a href="#!" class="textBody">Từ 25 - 30 triệu</a>
+                <a href="#!" class="textBody">Trên 30 triệu</a>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/11/638168046946821573_F-H4_248x248-2.png"
+              class="header__bottom-dropdown-img-laptop"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <a href="./../list-table/index.html" class="textBody"
+            >MÁY TÍNH BẢNG</a
+          >
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-table">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">HÃNG SẢN XUẤT</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Apple (iPad)</a>
+                  <a href="#!" class="textBody">Samsung</a>
+                  <a href="#!" class="textBody">Masstel</a>
+                  <a href="#!" class="textBody">Lenovo</a>
+                  <a href="#!" class="textBody">Xiaomi</a>
+                  <a href="#!" class="textBody">OPPO</a>
+                  <a href="#!" class="textBody">Coolpad</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-price-table">
+              <h2 class="header__bottom-dropdown-heading">MỨC GIÁ</h2>
+              <div class="header__bottom-dropdown-price-content">
+                <a href="#!" class="textBody">Dưới 2 triệu</a>
+                <a href="#!" class="textBody">Từ 2 triệu đến 5 triệu</a>
+                <a href="#!" class="textBody">Từ 5 triệu đến 8 triệu</a>
+                <a href="#!" class="textBody">Trên 8 triệu</a>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-salehot-table">
+              <h2 class="header__bottom-dropdown-heading">BÁN CHẠY NHẤT</h2>
+              <div class="header__bottom-dropdown-salehot-content">
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059452014421919_ipad-gen-9-wifi-dd.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >iPad Gen 9 2021 10.2 inch WiFi 64GB</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      7.190.000 ₫
+                    </p>
+                  </div>
+                </div>
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/19/638174908829566756_samsung-galaxy-tab-a8-wifi-dd.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Samsung Galaxy Tab A8 WiFi</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      5.490.000 ₫
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/11/638194008679769650_F-H4_248x248.png"
+              alt=""
+              class="header__bottom-dropdown-img-table"
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-brands fa-apple"></i>
+          <a href="./../list-apple/index.html" class="textBody">APPLE</a>
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-apple">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">
+                  CÁC SẢN PHẨM APPLE
+                </h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">iPhone</a>
+                  <a href="#!" class="textBody">iPad</a>
+                  <a href="#!" class="textBody">MacBook</a>
+                  <a href="#!" class="textBody">Apple Watch</a>
+                  <a href="#!" class="textBody">Apple Tai nghe</a>
+                  <a href="#!" class="textBody">iMac</a>
+                  <a href="#!" class="textBody">Mac Mini</a>
+                  <a href="#!" class="textBody">Sạc &amp; Cáp</a>
+                  <a href="#!" class="textBody">Ốp lưng &amp; Bao da</a>
+                  <a href="#!" class="textBody">Apple TV</a>
+                  <a href="#!" class="textBody">Chuột &amp; Trackpad</a>
+                  <a href="#!" class="textBody">Bàn phím</a>
+                  <a href="#!" class="textBody">AirTag</a>
+                  <a href="#!" class="textBody">Hàng dự án</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-salehot-apple">
+              <h2 class="header__bottom-dropdown-heading">BÁN CHẠY NHẤT</h2>
+              <div class="header__bottom-dropdown-salehot-content">
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107858631679725_iphone-14-pro-max-dd-1.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >iPhone 14 Pro Max 128GB</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      26.790.000 ₫
+                    </p>
+                  </div>
+                </div>
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >iPhone 13 128GB</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      16.890.000 ₫
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/24/638205160037505343_F-H4_248x248.jpg"
+              alt=""
+              class="header__bottom-dropdown-img-apple"
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item" style="position: relative">
+          <i class="fa-solid fa-desktop"></i>
+          <a href="./../list-pc/index.html" class="textBody">PC - LINH KIỆN</a>
+          <ul class="header__bottom-dropdown--2">
+            <li class="header__bottom-dropdown--2-item"><a href="#!">PC</a></li>
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Linh kiện</a>
+            </li>
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Màn hình</a>
+            </li>
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Xây dựng PC</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-headphones"></i>
+          <a href="./../list-accessory/index.html" class="textBody">PHỤ KIỆN</a>
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-acc">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">
+                  CÁC SẢN PHẨM PHỤ KIỆN
+                </h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Router</a>
+                  <a href="#!" class="textBody">Bao da ốp lưng</a>
+                  <a href="#!" class="textBody">Sạc dự phòng</a>
+                  <a href="#!" class="textBody">Thẻ nhớ</a>
+                  <a href="#!" class="textBody">Phụ kiện Apple</a>
+                  <a href="#!" class="textBody">Miếng dán màn hình</a>
+                  <a href="#!" class="textBody">Loa</a>
+                  <a href="#!" class="textBody">USB - Ổ cứng</a>
+                  <a href="#!" class="textBody">Sạc cáp</a>
+                  <a href="#!" class="textBody">Tai nghe</a>
+                  <a href="#!" class="textBody">Chuột</a>
+                  <a href="#!" class="textBody">Bàn ghế gaming</a>
+                  <a href="#!" class="textBody">Balo - Túi xách</a>
+                  <a href="#!" class="textBody">TV BOX</a>
+                  <a href="#!" class="textBody">Phụ kiện khác</a>
+                  <a href="#!" class="textBody">Phụ kiện khẩu trang lọc khí</a>
+                  <a href="#!" class="textBody">Bàn phím</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-salehot-acc">
+              <h2 class="header__bottom-dropdown-heading">BÁN CHẠY NHẤT</h2>
+              <div class="header__bottom-dropdown-salehot-content">
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/23/637968458856440391_HASP-LOA-BLUETOOTH-KARAOKE-SOUNDMAX-M22-AVT.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Combo Loa Bluetooth Karaoke Soundmax M22 + Mic không
+                      dây</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      1.845.000 ₫
+                    </p>
+                  </div>
+                </div>
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/1/14/637146111983706760_Trip10000_Black.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Pin sạc dự phòng UmeTravel 10000mAh TRIP10000 Quick
+                      Charge</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      539.000 ₫
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/11/638194118597947831_F-H4_248x248.jpg"
+              alt=""
+              class="header__bottom-dropdown-img-acc"
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-rotate-right"></i>
+          <a href="#!" class="textBody">MÁY CŨ GIÁ RẺ</a>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-house-chimney-window"></i>
+          <a href="#!" class="textBody">HÀNG GIA DỤNG</a>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-sim-card"></i>
+          <a href="#!" class="textBody">SIM & THẺ</a>
+        </div>
+        <div class="header__bottom-item" style="position: relative">
+          <i class="fa-brands fa-salesforce"></i>
+          <a href="#!" class="textBody">KHUYẾN MÃI</a>
+          <ul class="header__bottom-dropdown--2">
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Thông tin trao thưởng</a>
+            </li>
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Tất cả Khuyến Mãi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="listproduct">
+      <span class="listproduct__home container"
+        ><a href="#!">Trang chủ</a> /
+        <p>Điện thoại</p></span
+      >
+
+      <!-- List-adv -->
+      <section class="listproduct__list-adv container">
+        <img
+          src="https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/29/638209672779901560_F-C1_1200x300.png"
+          alt=""
+        />
+        <img
+          src="https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/6/638189646721602303_F-C1_1200x300@2x.png"
+          alt=""
+        />
+        <img
+          src="https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/30/638184959380570872_F-C1_1200x300.png"
+          alt=""
+        />
+        <img
+          src="https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/6/638189390534070184_F-C1_1200x300.png"
+          alt=""
+        />
+        <img
+          src="https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/6/638189624752664820_F-C1_1200x300.png"
+          alt=""
+        />
+        <img
+          src="https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/6/638189836766576287_F-C1_1200x300.png"
+          alt=""
+        />
+        <img
+          src="https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/29/638210005682157666_F-C1_1200x300.png"
+          alt=""
+        />
+        <img
+          src="https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/11/638194011189947871_F-C1_1200x300.jpg"
+          alt=""
+        />
+      </section>
+      <!-- CONTAINER -->
+      <section class="listproduct__container container">
+        <div class="listproduct__container--left">
+          <div class="listproduct__container-manufacture">
+            <h2 class="listproduct__container-heading">Hãng sản xuất</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="all" id="all-manufacture" />
+                <label for="all-manufacture">Tất cả</label>
+              </li>
+              <li>
+                <input type="checkbox" name="apple" id="apple" />
+                <label for="apple">Apple (IPhone)</label>
+              </li>
+              <li>
+                <input type="checkbox" name="samsung" id="samsung" />
+                <label for="samsung">SamSung</label>
+              </li>
+              <li>
+                <input type="checkbox" name="oppo" id="oppo" />
+                <label for="oppo">OPPO</label>
+              </li>
+              <li>
+                <input type="checkbox" name="xiaomi" id="xiaomi" />
+                <label for="xiaomi">Xiaomi</label>
+              </li>
+              <li>
+                <input type="checkbox" name="realme" id="realme" />
+                <label for="realme">Realme</label>
+              </li>
+              <li>
+                <input type="checkbox" name="vivo" id="vivo" />
+                <label for="vivo">VIVO</label>
+              </li>
+              <li>
+                <input type="checkbox" name="asus" id="asus" />
+                <label for="asus">ASUS</label>
+              </li>
+              <li>
+                <input type="checkbox" name="masstel" id="masstel" />
+                <label for="masstel">Masstel</label>
+              </li>
+              <li>
+                <input type="checkbox" name="nokia" id="nokia" />
+                <label for="nokia">Nokia</label>
+              </li>
+            </ul>
+          </div>
+          <div class="listproduct__container-box listproduct__container-prices">
+            <h2 class="listproduct__container-heading">Mức giá</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="all" id="all-prices" />
+                <label for="all-prices">Tất cả</label>
+              </li>
+              <li>
+                <input type="checkbox" name="price--1" id="price--1" />
+                <label for="price--1">Dưới 2 triệu</label>
+              </li>
+              <li>
+                <input type="checkbox" name="price--2" id="price--2" />
+                <label for="price--2">Từ 2 - 4 triệu</label>
+              </li>
+              <li>
+                <input type="checkbox" name="price--3" id="price--3" />
+                <label for="price--3">Từ 4 - 7 triệu</label>
+              </li>
+              <li>
+                <input type="checkbox" name="price--4" id="price--4" />
+                <label for="price--4">Từ 7 - 13 triệu</label>
+              </li>
+              <li>
+                <input type="checkbox" name="price--5" id="price--5" />
+                <label for="price--5">Trên 13 triệu</label>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="listproduct__container-box listproduct__container-feature"
+          >
+            <h2 class="listproduct__container-heading">Tính năng đặc biệt</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="all" id="all-feature" />
+                <label for="all-feature">Tất cả</label>
+              </li>
+              <li>
+                <input type="checkbox" name="feature--1" id="feature--1" />
+                <label for="feature--1">Bảo mật vân tay</label>
+              </li>
+              <li>
+                <input type="checkbox" name="feature--2" id="feature--2" />
+                <label for="feature--2">Nhận diện khuôn mặt</label>
+              </li>
+              <li>
+                <input type="checkbox" name="feature--3" id="feature--3" />
+                <label for="feature--3">Chống nước & bụi</label>
+              </li>
+              <li>
+                <input type="checkbox" name="feature--4" id="feature--4" />
+                <label for="feature--4">Sạc nhanh</label>
+              </li>
+              <li>
+                <input type="checkbox" name="feature--5" id="feature--5" />
+                <label for="feature--5">Hỗ trợ 5g</label>
+              </li>
+              <li>
+                <input type="checkbox" name="feature--6" id="feature--6" />
+                <label for="feature--6">Sạc không dây</label>
+              </li>
+            </ul>
+          </div>
+          <div class="listproduct__container-box listproduct__container-pin">
+            <h2 class="listproduct__container-heading">Hiệu năng và Pin</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="all" id="all-pin" />
+                <label for="all-pin">Tất cả</label>
+              </li>
+              <li>
+                <input type="checkbox" name="pin--1" id="pin--1" />
+                <label for="pin--1">Dưới 3000 mah</label>
+              </li>
+              <li>
+                <input type="checkbox" name="pin--2" id="pin--2" />
+                <label for="pin--2">Pin từ 3000 - 4000 mah</label>
+              </li>
+              <li>
+                <input type="checkbox" name="pin--3" id="pin--3" />
+                <label for="pin--3">Pin từ 4000 - 5000 mah</label>
+              </li>
+              <li>
+                <input type="checkbox" name="pin--4" id="pin--4" />
+                <label for="pin--4">Siêu trâu: trên 5000 mah</label>
+              </li>
+              <li>
+                <input type="checkbox" name="pin--5" id="pin--5" />
+                <label for="pin--5">Chơi game / Cấu hình cao</label>
+              </li>
+            </ul>
+          </div>
+          <div class="listproduct__container-box listproduct__container-creen">
+            <h2 class="listproduct__container-heading">Màn hình</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="all" id="all-creen" />
+                <label for="all-creen">Tất cả</label>
+              </li>
+              <li>
+                <input type="checkbox" name="creen--1" id="creen--1" />
+                <label for="creen--1">Màn hình nhỏ: Dưới 5.0 inch</label>
+              </li>
+              <li>
+                <input type="checkbox" name="creen--2" id="creen--2" />
+                <label for="creen--2"
+                  >Nhỏ gọn vừa tay: Dưới 6.0 inch, tràn viền</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" name="creen--3" id="creen--3" />
+                <label for="creen--3">Trên 6.0 inch</label>
+              </li>
+              <li>
+                <input type="checkbox" name="creen--4" id="creen--4" />
+                <label for="creen--4">Màn hình gập</label>
+              </li>
+            </ul>
+          </div>
+          <div class="listproduct__container-box listproduct__container-camera">
+            <h2 class="listproduct__container-heading">Camera</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="all" id="all-camera" />
+                <label for="all-camera">Tất cả</label>
+              </li>
+              <li>
+                <input type="checkbox" name="camera--1" id="camera--1" />
+                <label for="camera--1">Quay phim Slow Motion</label>
+              </li>
+              <li>
+                <input type="checkbox" name="camera--2" id="camera--2" />
+                <label for="camera--2">AI Camera</label>
+              </li>
+              <li>
+                <input type="checkbox" name="camera--3" id="camera--3" />
+                <label for="camera--3">Hiệu ứng làm đẹp</label>
+              </li>
+              <li>
+                <input type="checkbox" name="camera--4" id="camera--4" />
+                <label for="camera--4">Zoom quang học</label>
+              </li>
+              <li>
+                <input type="checkbox" name="camera--5" id="camera--5" />
+                <label for="camera--5">Chống rung OIS</label>
+              </li>
+              <li>
+                <input type="checkbox" name="camera--6" id="camera--6" />
+                <label for="camera--6">Chụp macro</label>
+              </li>
+              <li>
+                <input type="checkbox" name="camera--7" id="camera--7" />
+                <label for="camera--7">Chụp góc rộng</label>
+              </li>
+            </ul>
+          </div>
+          <div class="listproduct__container-box listproduct__container-endow">
+            <h2 class="listproduct__container-heading">Trả góp ưu đãi</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="all" id="all-endow" />
+                <label for="all-endow">Tất cả</label>
+              </li>
+              <li>
+                <input type="checkbox" name="endow--1" id="endow--1" />
+                <label for="endow--1">Trả góp 0%</label>
+              </li>
+              <li>
+                <input type="checkbox" name="endow--2" id="endow--2" />
+                <label for="endow--2">Trả góp 0%</label>
+              </li>
+              <li>
+                <input type="checkbox" name="endow--3" id="endow--3" />
+                <label for="endow--3">Trả góp 0% và 0đ</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="listproduct__container--right">
+          <div class="listproduct__container-type">
+            <div class="listproduct__container-type-heading">
+              <h1>Điện thoại</h1>
+              <span>(299 sản phẩm)</span>
+            </div>
+            <div class="listproduct__container-type-list">
+              <img
+                src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340490193124614_iPhone-Apple@2x.jpg"
+                alt=""
+              />
+              <img
+                src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340490904217021_Samsung@2x.jpg"
+                alt=""
+              />
+              <img
+                src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340491304997311_Oppo@2x.jpg"
+                alt=""
+              />
+              <img
+                src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/6/2/637582325361253577_Xiaomi@2x.jpg"
+                alt=""
+              />
+              <img
+                src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340491898745716_Realme@2x.jpg"
+                alt=""
+              />
+              <img
+                src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/22/637967768466618842_vivo-icon.jpg"
+                alt=""
+              />
+              <img
+                src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/22/637732077455069770_Asus@2x.jpg"
+                alt=""
+              />
+              <img
+                src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340491898901930_Masstel@2x.jpg"
+                alt=""
+              />
+              <img
+                src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340493755614653_Nokia@2x.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="listproduct__sale container">
+            <div class="listproduct__sale-heading">
+              <p>Ưu tiên xem:</p>
+              <table
+                class="listproduct__sale-table"
+                border="1"
+                style="border-collapse: collapse"
+              >
+                <tr class="listproduct__sale-table-content">
+                  <td class="listproduct__sale-table-tap">
+                    <a href="#!">Bán chạy nhất</a>
+                  </td>
+                  <td class="listproduct__sale-table-tap">
+                    <a href="#!">Trả góp 0%</a>
+                  </td>
+                  <td class="listproduct__sale-table-tap">
+                    <a href="#!">Giá thấp</a>
+                  </td>
+                  <td class="listproduct__sale-table-tap">
+                    <a href="#!">Giá cao</a>
+                  </td>
+                  <td class="listproduct__sale-table-tap">
+                    <a href="#!">Ưu đãi Online</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="listproduct__sale-content listproduct__sale-monopoly">
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+              <div class="listproduct__sale-card">
+                <a class="listproduct__sale-product">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <p class="listproduct__sale-installment textBody">
+                    Trả góp 0%
+                  </p>
+                  <p class="listproduct__sale-discount textBody">
+                    Giảm 3.210.000 ₫
+                  </p>
+                </a>
+                <h2 class="listproduct__sale-name heading-2">
+                  iPhone 14 Pro 128GB
+                </h2>
+                <div class="listproduct__sale-promotion">
+                  <div
+                    class="listproduct__sale-price-bgr"
+                    style="--percent: 50%"
+                  >
+                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                  </div>
+                  <p>27.990.000 ₫</p>
+                </div>
+                <div class="listproduct__sale-promo">
+                  <div class="listproduct__configuration">
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-microchip"></i>
+                      <p>Apple A13 Bionic</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                      <p>6.1 inch</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-sd-card"></i>
+                      <p>4 GB</p>
+                    </div>
+                    <div class="listproduct__configuration-item">
+                      <i class="fa-solid fa-hard-drive"></i>
+                      <p>64 GB</p>
+                    </div>
+                  </div>
+                  <div class="listproduct__sale-icon">
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029984985744443_tpbank-icon.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108715966954351_download.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="listproduct__sale-promo-content textBody">
+                    Giảm đến 1 triệu khi mở thẻ TPBANK EVO
+                  </p>
+                </div>
+                <div class="listproduct__sale-btns">
+                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
+                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                </div>
+              </div>
+            </div>
+            <button class="listproduct__sale-btn">Xem thêm</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer__main">
+        <div class="footer__main-container container">
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <a href="#!">Giới thiệu về công ty</a>
+              </li>
+              <li>
+                <a href="#!">Chính sách bảo mật</a>
+              </li>
+              <li>
+                <a href="#!">Quy chế hoạt động</a>
+              </li>
+              <li>
+                <a href="#!">Kiểm tra hóa đơn điện tử</a>
+              </li>
+              <li>
+                <a href="#!">Tra cứu thông tin bảo hành</a>
+              </li>
+              <li>
+                <a href="#!">Câu hỏi thường gặp mua hàng</a>
+              </li>
+              <li>
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img1.png"
+                  alt=""
+                />
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img2.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <a href="#!">Tin tuyển dụng</a>
+              </li>
+              <li>
+                <a href="#!">Tin khuyến mãi</a>
+              </li>
+              <li>
+                <a href="#!">Hướng dẫn mua online</a>
+              </li>
+              <li>
+                <a href="#!">Hướng dẫn mua trả góp</a>
+              </li>
+              <li>
+                <a href="#!">Chính sách trả góp</a>
+              </li>
+              <li>
+                <a href="#!"> </a>
+              </li>
+              <li>
+                <h3>Chứng nhận:</h3>
+                <div>
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img3.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img4.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img5.png"
+                    alt=""
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <a href="#!">Hệ thống cửa hàng</a>
+              </li>
+              <li>
+                <a href="#!"> Chính sách đổi trả</a>
+              </li>
+              <li>
+                <a href="#!">Hệ thống bảo hành</a>
+              </li>
+              <li>
+                <a href="#!">Giới thiệu máy đổi trả</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <h3>Tư vấn mua hàng (Miễn phí)</h3>
+                <p><span>1800 6601</span>(Nhánh 1)</p>
+              </li>
+              <li>
+                <h3>Hỗ trợ kỹ thuật</h3>
+                <p><span>1800 6601</span>(Nhánh 2)</p>
+              </li>
+              <li>
+                <h3>Góp ý, khiếu nại (8h00 - 22h00)</h3>
+                <p><span>1800 6616</span></p>
+              </li>
+              <li>
+                <h3>Hỗ trợ thanh toán:</h3>
+                <div>
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img6.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img7.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img8.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-imgamex.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img9.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img11.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img12.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img10.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img15.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img13.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img14.png"
+                    alt=""
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <h3>Website cùng FPT Retail:</h3>
+              </li>
+              <li>
+                <p>Cửa hàng uỷ quyền bởi Apple:</p>
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img16.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <p>Trung tâm bảo hành uỷ quyền Apple:</p>
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img17.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <p>Chuỗi nhà thuốc:</p>
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img18.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__sub">
+        <div class="footer__sub-container container">
+          <p>
+            © 2007 - 2023 Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT / Địa chỉ: 261
+            - 263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh / GPĐKKD số 0311609355 do
+            Sở KHĐT TP.HCM cấp ngày 08/03/2012. <br />
+            GP số 47/GP-TTĐT do sở TTTT TP HCM cấp ngày 02/07/2018. Điện thoại:
+            <span>(028) 7302 3456</span>. Email:
+            <span>fptshop@fpt.com.vn</span>. Chịu trách nhiệm nội dung: Nguyễn
+            Trịnh Nhật Linh.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./../../javascript/app.js"></script>
+  </body>
+</html>
