@@ -36,6 +36,29 @@ a:hover {
   color: var(--black);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.a__blue {
+  color: blue;
+}
+
 .heading-1 {
   font-size: 20px;
   font-weight: 500;
@@ -151,6 +174,10 @@ a:hover {
 }
 
 .header__top-item {
+  position: relative;
+}
+
+.header__top-item a {
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -158,7 +185,6 @@ a:hover {
   justify-content: center;
   gap: 5px;
   cursor: pointer;
-  position: relative;
 }
 
 .header__top-item i {
@@ -488,7 +514,7 @@ a:hover {
 
 /* Main */
 
-.listproduct {
+.listpc {
   margin: 0 auto;
   background: url(./../../img/bgr-pc.webp) center / cover;
   display: flex;
@@ -499,59 +525,63 @@ a:hover {
 
 /* HOME */
 
-.listproduct__home {
+.listpc__home {
   width: 100%;
   display: flex;
   gap: 5px;
   position: relative;
 }
 
-.listproduct__list-adv {
+.listpc__home p {
+  color: var(--white);
+}
+
+.listpc__list-adv {
   width: 100%;
   height: 310px;
 }
 
-.listproduct__list-adv img {
+.listpc__list-adv img {
   width: 100%;
 }
-.listproduct__list-adv .slick-arrow {
+.listpc__list-adv .slick-arrow {
   position: absolute;
   top: 50%;
   z-index: 9999;
   transform: translateY(-50%);
 }
 
-.listproduct__list-adv .slick-arrow::before,
-.listproduct__list-adv .slick-arrow::after {
+.listpc__list-adv .slick-arrow::before,
+.listpc__list-adv .slick-arrow::after {
   font-size: 50px;
 }
 
-.listproduct__list-adv .slick-prev {
+.listpc__list-adv .slick-prev {
   left: 20px;
 }
 
-.listproduct__list-adv .slick-next {
+.listpc__list-adv .slick-next {
   right: 50px;
 }
 
-.listproduct__list-adv .slick-dots li {
+.listpc__list-adv .slick-dots li {
   background: rgba(0, 0, 0, 0.386);
   width: 50px;
   height: 5px;
   border-radius: 90px;
 }
 
-.listproduct__list-adv .slick-dots li button::before {
+.listpc__list-adv .slick-dots li button::before {
   display: none;
 }
 
-.listproduct__list-adv .slick-dots .slick-active {
+.listpc__list-adv .slick-dots .slick-active {
   background: rgba(255, 255, 255, 0.43);
 }
 
 /* LIST_IMG */
 
-.listproduct__list-img {
+.listpc__list-img {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -559,13 +589,13 @@ a:hover {
 
 /* CONTAINER */
 
-.listproduct__container {
+.listpc__container {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.listproduct__container--left {
+.listpc__container--left {
   width: 20%;
   padding: 15px;
   background-color: ghostwhite;
@@ -576,50 +606,50 @@ a:hover {
   gap: 30px;
 }
 
-.listproduct__container--left ul {
+.listpc__container--left ul {
   list-style: none;
 }
 
-.listproduct__container--left label {
+.listpc__container--left label {
   color: #4d4d4d;
   font-size: 14px;
   line-height: 18px;
 }
 
-.listproduct__container-heading {
+.listpc__container-heading {
   color: #212529;
   font-size: 15px;
   font-weight: 700;
   line-height: 15px;
 }
 
-.listproduct__container-box,
-.listproduct__container-manufacture {
+.listpc__container-box,
+.listpc__container-manufacture {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 21px;
 }
 
-.listproduct__container-box > ul {
+.listpc__container-box > ul {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.listproduct__container--right {
+.listpc__container--right {
   width: 80%;
   background-color: gainsboro;
 }
 
-.listproduct__container-type {
+.listpc__container-type {
   width: 100%;
   border: 1px solid gainsboro;
   border-radius: 0px 5px 5px 0;
   background-color: var(--white);
 }
 
-.listproduct__container-type-heading {
+.listpc__container-type-heading {
   width: 100%;
   padding: 15px;
   background: url(https://fptshop.com.vn/may-tinh-de-ban/Content/v5d/images/bg-title.png?v=2);
@@ -631,7 +661,7 @@ a:hover {
   gap: 14px;
 }
 
-.listproduct__container-type-heading h1 {
+.listpc__container-type-heading h1 {
   color: #ffffff;
   display: inline;
   font-size: 28px;
@@ -639,38 +669,44 @@ a:hover {
   line-height: 28px;
 }
 
-.listproduct__container-type-heading span {
+.listpc__container-type-heading span {
   color: #ffffff;
   display: inline-block;
   font-size: 18px;
   line-height: 18px;
 }
 
-.listproduct__container-type-list {
+.listpc__container-type-list {
   position: relative;
 }
 
-.listproduct__container-type-list img {
-  height: 40px;
-  width: 108px !important;
+.listpc__container-type-list .slick-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listpc__container-type-list img {
+  height: auto;
+  width: 130px !important;
   padding: 0 10px;
   transition: 0.3s;
 }
 
-.listproduct__container-type-list img:hover {
+.listpc__container-type-list img:hover {
   transform: scale(1.3);
 }
 
-.listproduct__container-type-list .slick-track {
+.listpc__container-type-list .slick-track {
   padding: 20px;
 }
 
-.listproduct__container-type-list .slick-arrow::before,
-.listproduct__container-type-list .slick-arrow::after {
+.listpc__container-type-list .slick-arrow::before,
+.listpc__container-type-list .slick-arrow::after {
   font-size: 40px;
 }
 
-.listproduct__container-type-list .slick-arrow {
+.listpc__container-type-list .slick-arrow {
   width: 80px;
   height: 100%;
 
@@ -679,7 +715,7 @@ a:hover {
   z-index: 9999;
   transform: translateY(-50%);
 }
-.listproduct__container-type-list .slick-prev {
+.listpc__container-type-list .slick-prev {
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.2),
@@ -688,7 +724,7 @@ a:hover {
   left: 0;
 }
 
-.listproduct__container-type-list .slick-next {
+.listpc__container-type-list .slick-next {
   background-image: linear-gradient(
     to left,
     rgba(0, 0, 0, 0.2),
@@ -697,7 +733,7 @@ a:hover {
   right: 0;
 }
 
-.listproduct__sale {
+.listpc__sale {
   width: 100%;
   background-color: var(--white);
   border-radius: 5px;
@@ -709,7 +745,7 @@ a:hover {
   position: relative;
 }
 
-.listproduct__sale-heading {
+.listpc__sale-heading {
   width: 100%;
   padding-left: 15px;
   display: flex;
@@ -717,38 +753,38 @@ a:hover {
   align-items: center;
 }
 
-.listproduct__sale-heading p {
+.listpc__sale-heading p {
   color: #555555;
   font-size: 14px;
   line-height: 14px;
 }
 
-.listproduct__sale-table {
+.listpc__sale-table {
   margin-left: 15px;
   border-color: gainsboro;
 }
 
-.listproduct__sale-table-tap {
+.listpc__sale-table-tap {
   padding: 6px 15px;
 }
 
-.listproduct__sale-table-tap a {
+.listpc__sale-table-tap a {
   color: #ced4da;
 }
 
-.listproduct__sale-table-tap:hover,
-.listproduct__sale-table-tap:hover a {
+.listpc__sale-table-tap:hover,
+.listpc__sale-table-tap:hover a {
   color: var(--white);
   background-color: #8392a5;
 }
 
-.listproduct__sale-table-tap:active,
-.listproduct__sale-table-tap:active a {
+.listpc__sale-table-tap:active,
+.listpc__sale-table-tap:active a {
   background-color: var(--red);
   color: var(--white);
 }
 
-.listproduct__sale-content {
+.listpc__sale-content {
   width: 100%;
   display: flex;
   align-items: center;
@@ -757,7 +793,7 @@ a:hover {
   padding: 0 3px;
 }
 
-.listproduct__sale-card {
+.listpc__sale-card {
   width: 298px;
   padding: 8px;
   display: flex;
@@ -766,22 +802,22 @@ a:hover {
   gap: 12px;
 }
 
-.listproduct__sale-card:hover {
+.listpc__sale-card:hover {
   outline: 1px solid rgb(196, 195, 195);
   border-radius: 5px;
   outline-offset: 1px;
 }
 
-.listproduct__sale-card:hover .listproduct__sale-btns {
+.listpc__sale-card:hover .listpc__sale-btns {
   opacity: 1;
   visibility: inherit;
 }
 
-.listproduct__sale-card:hover .listproduct__sale-product {
+.listpc__sale-card:hover .listpc__sale-product {
   transform: scale(1.05);
 }
 
-.listproduct__sale-product {
+.listpc__sale-product {
   width: 282px;
   height: 225px;
   background: url(./../../img/sale-bgr.webp) top no-repeat;
@@ -794,12 +830,12 @@ a:hover {
   transition: 0.3s;
 }
 
-.listproduct__sale-product > img {
+.listpc__sale-product > img {
   width: 168px;
   height: 168px;
 }
 
-.listproduct__sale-installment {
+.listpc__sale-installment {
   position: absolute;
   left: 0px;
   top: 141px;
@@ -810,7 +846,7 @@ a:hover {
   text-align: center;
 }
 
-.listproduct__sale-discount {
+.listpc__sale-discount {
   position: absolute;
   left: 0px;
   top: 171px;
@@ -821,14 +857,14 @@ a:hover {
   text-align: center;
 }
 
-.listproduct__sale-name {
+.listpc__sale-name {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.listproduct__sale-promotion {
+.listpc__sale-promotion {
   width: 100%;
   height: 28px;
   display: flex;
@@ -836,11 +872,11 @@ a:hover {
   align-items: center;
 }
 
-.listproduct__sale-promotion > p {
+.listpc__sale-promotion > p {
   text-decoration: line-through;
 }
 
-.listproduct__sale-price-bgr {
+.listpc__sale-price-bgr {
   width: 130px;
   height: 100%;
   background-color: #ef8573;
@@ -848,7 +884,7 @@ a:hover {
   position: relative;
 }
 
-.listproduct__sale-price-bgr::after {
+.listpc__sale-price-bgr::after {
   content: "";
   display: block;
   position: absolute;
@@ -861,7 +897,7 @@ a:hover {
   z-index: 1;
 }
 
-.listproduct__sale-price {
+.listpc__sale-price {
   text-align: center;
   position: absolute;
   top: 2px;
@@ -877,7 +913,7 @@ a:hover {
   z-index: 2;
 }
 
-.listproduct__sale-promo {
+.listpc__sale-promo {
   width: 100%;
   background-color: #f8f9fa;
   border-radius: 5px;
@@ -888,35 +924,35 @@ a:hover {
   align-items: flex-start;
 }
 
-.listproduct__configuration {
+.listpc__configuration {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.listproduct__configuration-item {
+.listpc__configuration-item {
   padding: 0 10px 9px 0;
   color: #99a2aa;
   display: flex;
   gap: 5px;
 }
 
-.listproduct__sale-icon {
+.listpc__sale-icon {
   display: flex;
   gap: 10px;
 }
 
-.listproduct__sale-icon > img:hover {
+.listpc__sale-icon > img:hover {
   border-color: rgb(185, 185, 185);
 }
 
-.listproduct__sale-icon > img {
+.listpc__sale-icon > img {
   border-radius: 99999999px;
   border: 1px solid transparent;
   transition: 0.3s;
 }
 
-.listproduct__sale-btns {
+.listpc__sale-btns {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -927,8 +963,8 @@ a:hover {
   visibility: hidden;
 }
 
-.listproduct__sale-btn--1,
-.listproduct__sale-btn--2 {
+.listpc__sale-btn--1,
+.listpc__sale-btn--2 {
   width: 100%;
   border-radius: 5px;
   padding: 10px;
@@ -937,17 +973,17 @@ a:hover {
   line-height: 13px;
 }
 
-.listproduct__sale-btn--1 {
+.listpc__sale-btn--1 {
   background-color: var(--red);
   color: var(--white);
 }
 
-.listproduct__sale-btn--2 {
+.listpc__sale-btn--2 {
   background-color: #99a2aa;
   color: var(--white);
 }
 
-.listproduct__sale-btn {
+.listpc__sale-btn {
   background-color: #e9ecef;
   border: 1px solid #00000016;
   border-radius: 5px;
@@ -967,7 +1003,6 @@ a:hover {
   width: 100%;
   background-color: var(--white);
   border-radius: 5px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -988,7 +1023,6 @@ a:hover {
 
 .main__hotacc-table {
   width: 100%;
-
   border-color: rgb(199, 199, 199);
 }
 

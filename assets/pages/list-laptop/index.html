@@ -41,8 +41,10 @@
         </div>
         <ul class="header__top-menu">
           <li class="header__top-item">
-            <i class="fa-regular fa-file-lines"></i>
-            <p class="textBody">Thông tin hay</p>
+            <a href="#!">
+              <i class="fa-regular fa-file-lines"></i>
+              <p class="textBody">Thông tin hay</p>
+            </a>
             <div class="header__top-dropdown-inf">
               <ul class="header__top-dropdown-list">
                 <li class="header__top-dropdown-item">
@@ -76,16 +78,22 @@
             </div>
           </li>
           <li class="header__top-item">
-            <i class="fa-solid fa-file-circle-check"></i>
-            <p class="textBody">Thanh toán & tiện ích</p>
+            <a href="#!">
+              <i class="fa-solid fa-file-circle-check"></i>
+              <p class="textBody">Thanh toán & tiện ích</p>
+            </a>
           </li>
           <li class="header__top-item">
-            <i class="fa-solid fa-circle-user"></i>
-            <p class="textBody">Tài khoản của tôi</p>
+            <a href="./../login/index.html">
+              <i class="fa-solid fa-circle-user"></i>
+              <p class="textBody">Tài khoản của tôi</p>
+            </a>
           </li>
           <li class="header__top-item">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <p class="textBody">Giỏ hàng</p>
+            <a href="./../../pages/basket/index.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p class="textBody">Giỏ hàng</p>
+            </a>
           </li>
         </ul>
       </div>
@@ -501,14 +509,14 @@
       </div>
     </header>
 
-    <main class="listproduct">
-      <span class="listproduct__home container"
-        ><a href="#!">Trang chủ</a> /
+    <main class="listlaptop">
+      <span class="listlaptop__home container"
+        ><a href="./../../../index.html" class="a__blue">Trang chủ</a> /
         <p>laptop</p></span
       >
 
       <!-- List-adv -->
-      <section class="listproduct__list-adv container">
+      <section class="listlaptop__list-adv listproduct__list-adv container">
         <img
           src="https://images.fpt.shop/unsafe/fit-in/1200x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/30/638210393104212142_F-C1_1200x300.png"
           alt=""
@@ -565,10 +573,10 @@
 
       <!--  -->
       <!-- CONTAINER -->
-      <section class="listproduct__container container">
-        <div class="listproduct__container--left">
-          <div class="listproduct__container-manufacture">
-            <h2 class="listproduct__container-heading">Hãng sản xuất</h2>
+      <section class="listlaptop__container container">
+        <div class="listlaptop__container--left">
+          <div class="listlaptop__container-manufacture">
+            <h2 class="listlaptop__container-heading">Hãng sản xuất</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-manufacture" />
@@ -664,8 +672,8 @@
               </li>
             </ul>
           </div>
-          <div class="listproduct__container-box listproduct__container-prices">
-            <h2 class="listproduct__container-heading">Mức giá</h2>
+          <div class="listlaptop__container-box listlaptop__container-prices">
+            <h2 class="listlaptop__container-heading">Mức giá</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-prices" />
@@ -690,8 +698,8 @@
               </li>
             </ul>
           </div>
-          <div class="listproduct__container-box listproduct__container-creen">
-            <h2 class="listproduct__container-heading">Màn hình</h2>
+          <div class="listlaptop__container-box listlaptop__container-creen">
+            <h2 class="listlaptop__container-heading">Màn hình</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-creen" />
@@ -711,8 +719,8 @@
               </li>
             </ul>
           </div>
-          <div class="listproduct__container-box listproduct__container-cpu">
-            <h2 class="listproduct__container-heading">CPU</h2>
+          <div class="listlaptop__container-box listlaptop__container-cpu">
+            <h2 class="listlaptop__container-heading">CPU</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-cpu" />
@@ -756,8 +764,8 @@
               </li>
             </ul>
           </div>
-          <div class="listproduct__container-box listproduct__container-ram">
-            <h2 class="listproduct__container-heading">RAM</h2>
+          <div class="listlaptop__container-box listlaptop__container-ram">
+            <h2 class="listlaptop__container-heading">RAM</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-ram" />
@@ -781,8 +789,8 @@
               </li>
             </ul>
           </div>
-          <div class="listproduct__container-box listproduct__container-card">
-            <h2 class="listproduct__container-heading">Card đồ họa</h2>
+          <div class="listlaptop__container-box listlaptop__container-card">
+            <h2 class="listlaptop__container-heading">Card đồ họa</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-card" />
@@ -803,9 +811,9 @@
             </ul>
           </div>
           <div
-            class="listproduct__container-box listproduct__container-harddrive"
+            class="listlaptop__container-box listlaptop__container-harddrive"
           >
-            <h2 class="listproduct__container-heading">Ổ cứng</h2>
+            <h2 class="listlaptop__container-heading">Ổ cứng</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-harddrive" />
@@ -829,10 +837,8 @@
               </li>
             </ul>
           </div>
-          <div
-            class="listproduct__container-box listproduct__container-feature"
-          >
-            <h2 class="listproduct__container-heading">Tính năng đặc biệt</h2>
+          <div class="listlaptop__container-box listlaptop__container-feature">
+            <h2 class="listlaptop__container-heading">Tính năng đặc biệt</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-feature" />
@@ -880,8 +886,8 @@
               </li>
             </ul>
           </div>
-          <div class="listproduct__container-box listproduct__container-demand">
-            <h2 class="listproduct__container-heading">Nhu cầu</h2>
+          <div class="listlaptop__container-box listlaptop__container-demand">
+            <h2 class="listlaptop__container-heading">Nhu cầu</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-demand" />
@@ -909,8 +915,8 @@
               </li>
             </ul>
           </div>
-          <div class="listproduct__container-box listproduct__container-endow">
-            <h2 class="listproduct__container-heading">Trả góp ưu đãi</h2>
+          <div class="listlaptop__container-box listlaptop__container-endow">
+            <h2 class="listlaptop__container-heading">Trả góp ưu đãi</h2>
             <ul>
               <li>
                 <input type="checkbox" name="all" id="all-endow" />
@@ -931,13 +937,13 @@
             </ul>
           </div>
         </div>
-        <div class="listproduct__container--right">
-          <div class="listproduct__container-type">
-            <div class="listproduct__container-type-heading">
+        <div class="listlaptop__container--right">
+          <div class="listlaptop__container-type">
+            <div class="listlaptop__container-type-heading">
               <h1>LAPTOP</h1>
               <span>(201 sản phẩm)</span>
             </div>
-            <div class="listproduct__container-type-list">
+            <div class="listlaptop__container-type-list type-list">
               <img
                 src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/1/4/637769104385571970_Macbook-Apple@2x.jpg"
                 alt=""
@@ -988,17 +994,17 @@
               />
             </div>
           </div>
-          <section class="listproduct__container-demand-type container">
-            <h1 class="listproduct__container-demand-type-heading heading-1">
+          <section class="listlaptop__container-demand-type container">
+            <h1 class="listlaptop__container-demand-type-heading heading-1">
               LAPTOP THEO NHU CẦU
             </h1>
             <table
-              class="listproduct__container-demand-type-table"
+              class="listlaptop__container-demand-type-table"
               border="0"
               style="border-collapse: collapse"
             >
               <tr>
-                <td class="listproduct__container-demand-type-item">
+                <td class="listlaptop__container-demand-type-item">
                   <a href="#!">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/125x125/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/19/637991744177742277_img-gaming.png"
@@ -1007,7 +1013,7 @@
                     <p>Gaming</p>
                   </a>
                 </td>
-                <td class="listproduct__container-demand-type-item">
+                <td class="listlaptop__container-demand-type-item">
                   <a href="#!">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/125x125/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/6/637980583313032986_SV-V%C4%83n%20ph%C3%B2ng.png"
@@ -1016,7 +1022,7 @@
                     <p>Sinh viên - Văn phòng</p>
                   </a>
                 </td>
-                <td class="listproduct__container-demand-type-item">
+                <td class="listlaptop__container-demand-type-item">
                   <a href="#!">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/125x125/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/19/637991745714018004_img-thietkedohoa.png"
@@ -1025,7 +1031,7 @@
                     <p>Thiết kế đồ họa</p>
                   </a>
                 </td>
-                <td class="listproduct__container-demand-type-item">
+                <td class="listlaptop__container-demand-type-item">
                   <a href="#!">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/125x125/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/19/637991744678844250_img-mongnhe.png"
@@ -1034,7 +1040,7 @@
                     <p>Mỏng nhẹ</p>
                   </a>
                 </td>
-                <td class="listproduct__container-demand-type-item">
+                <td class="listlaptop__container-demand-type-item">
                   <a href="#!">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/125x125/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/19/637991745141508369_img-doanhnhan.png"
@@ -1046,87 +1052,87 @@
               </tr>
             </table>
           </section>
-          <div class="listproduct__sale container">
-            <div class="listproduct__sale-heading">
+          <div class="listlaptop__sale container">
+            <div class="listlaptop__sale-heading">
               <p>Ưu tiên xem:</p>
               <table
-                class="listproduct__sale-table"
+                class="listlaptop__sale-table"
                 border="1"
                 style="border-collapse: collapse"
               >
-                <tr class="listproduct__sale-table-content">
-                  <td class="listproduct__sale-table-tap">
+                <tr class="listlaptop__sale-table-content">
+                  <td class="listlaptop__sale-table-tap">
                     <a href="#!">Bán chạy nhất</a>
                   </td>
-                  <td class="listproduct__sale-table-tap">
+                  <td class="listlaptop__sale-table-tap">
                     <a href="#!">Trả góp 0%</a>
                   </td>
-                  <td class="listproduct__sale-table-tap">
+                  <td class="listlaptop__sale-table-tap">
                     <a href="#!">Giá thấp</a>
                   </td>
-                  <td class="listproduct__sale-table-tap">
+                  <td class="listlaptop__sale-table-tap">
                     <a href="#!">Giá cao</a>
                   </td>
-                  <td class="listproduct__sale-table-tap">
+                  <td class="listlaptop__sale-table-tap">
                     <a href="#!">Ưu đãi Online</a>
                   </td>
                 </tr>
               </table>
             </div>
-            <div class="listproduct__sale-content listproduct__sale-monopoly">
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+            <div class="listlaptop__sale-content listlaptop__sale-monopoly">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1136,68 +1142,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1207,68 +1213,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1278,68 +1284,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1349,68 +1355,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1420,68 +1426,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1491,68 +1497,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1562,68 +1568,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1633,68 +1639,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1704,68 +1710,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1775,68 +1781,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1846,68 +1852,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1917,68 +1923,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -1988,68 +1994,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2059,68 +2065,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2130,68 +2136,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2201,68 +2207,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2272,68 +2278,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2343,68 +2349,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2414,68 +2420,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2485,68 +2491,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2556,68 +2562,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2627,68 +2633,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2698,68 +2704,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2769,68 +2775,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2840,68 +2846,68 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
-              <div class="listproduct__sale-card">
-                <a class="listproduct__sale-product">
+              <div class="listlaptop__sale-card">
+                <a class="listlaptop__sale-product">
                   <img
                     src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png"
                     alt=""
                   />
-                  <p class="listproduct__sale-installment textBody">
+                  <p class="listlaptop__sale-installment textBody">
                     Trả góp 0%
                   </p>
-                  <p class="listproduct__sale-discount textBody">
+                  <p class="listlaptop__sale-discount textBody">
                     Giảm 3.210.000 ₫
                   </p>
                 </a>
-                <h2 class="listproduct__sale-name heading-2">
+                <h2 class="listlaptop__sale-name heading-2">
                   iPhone 14 Pro 128GB
                 </h2>
-                <div class="listproduct__sale-promotion">
+                <div class="listlaptop__sale-promotion">
                   <div
-                    class="listproduct__sale-price-bgr"
+                    class="listlaptop__sale-price-bgr"
                     style="--percent: 50%"
                   >
-                    <h2 class="listproduct__sale-price">24.780.000 ₫</h2>
+                    <h2 class="listlaptop__sale-price">24.780.000 ₫</h2>
                   </div>
                   <p>27.990.000 ₫</p>
                 </div>
-                <div class="listproduct__sale-promo">
-                  <div class="listproduct__configuration">
-                    <div class="listproduct__configuration-item">
+                <div class="listlaptop__sale-promo">
+                  <div class="listlaptop__configuration">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-laptop"></i>
                       <p>13.3 inch</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-microchip"></i>
                       <p>M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-sd-card"></i>
                       <p>8 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-hard-drive"></i>
                       <p>SSD 256 GB</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-print"></i>
                       <p>Apple M1</p>
                     </div>
-                    <div class="listproduct__configuration-item">
+                    <div class="listlaptop__configuration-item">
                       <i class="fa-solid fa-weight-hanging"></i>
                       <p>1.29 kg</p>
                     </div>
                   </div>
-                  <div class="listproduct__sale-icon">
+                  <div class="listlaptop__sale-icon">
                     <img
                       src="https://images.fpt.shop/unsafe/fit-in/45x45/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/1/638132605050038989_Kredivo.png"
                       alt=""
@@ -2911,17 +2917,17 @@
                       alt=""
                     />
                   </div>
-                  <p class="listproduct__sale-promo-content textBody">
+                  <p class="listlaptop__sale-promo-content textBody">
                     Giảm đến 1 triệu khi mở thẻ TPBANK EVO
                   </p>
                 </div>
-                <div class="listproduct__sale-btns">
-                  <button class="listproduct__sale-btn--1">MUA NGAY</button>
-                  <button class="listproduct__sale-btn--2">SO SÁNH</button>
+                <div class="listlaptop__sale-btns">
+                  <button class="listlaptop__sale-btn--1">MUA NGAY</button>
+                  <button class="listlaptop__sale-btn--2">SO SÁNH</button>
                 </div>
               </div>
             </div>
-            <button class="listproduct__sale-btn">Xem thêm</button>
+            <button class="listlaptop__sale-btn">Xem thêm</button>
           </div>
         </div>
       </section>

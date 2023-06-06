@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>FptShope</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <a href="./../../../index.html" class="header__logo"></a>
+        <div class="header__input">
+          <input
+            type="text"
+            placeholder="Nhập nên điện thoại, máy tính, phụ kiện... cần tìm"
+          />
+          <button class="header__search">
+            <i class="fa-solid fa-magnifying-glass" title="Tìm kiếm"></i>
+          </button>
+        </div>
+        <ul class="header__top-menu">
+          <li class="header__top-item">
+            <a href="#!">
+              <i class="fa-regular fa-file-lines"></i>
+              <p class="textBody">Thông tin hay</p>
+            </a>
+            <div class="header__top-dropdown-inf">
+              <ul class="header__top-dropdown-list">
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Tin mới</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Khuyến mãi</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Điện máy - gia dụng</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Thủ thuật</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">For Gamers</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Video hot</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Đánh giá tư vấn</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">App & Game</a>
+                </li>
+                <li class="header__top-dropdown-item">
+                  <a href="#!">Sự kiện</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__top-item">
+            <a href="#!">
+              <i class="fa-solid fa-file-circle-check"></i>
+              <p class="textBody">Thanh toán & tiện ích</p>
+            </a>
+          </li>
+          <li class="header__top-item">
+            <a href="./../login/index.html">
+              <i class="fa-solid fa-circle-user"></i>
+              <p class="textBody">Tài khoản của tôi</p>
+            </a>
+          </li>
+          <li class="header__top-item">
+            <a href="./../../pages/basket/index.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p class="textBody">Giỏ hàng</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <a href="./../list-product/index.html" class="textBody">ĐIỆN THOẠI</a>
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-mobile">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">HÃNG SẢN XUẤT</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Apple (Iphone)</a>
+                  <a href="#!" class="textBody">SamSung</a>
+                  <a href="#!" class="textBody">OPPO</a>
+                  <a href="#!" class="textBody">Xiaomi</a>
+                  <a href="#!" class="textBody">Realme</a>
+                  <a href="#!" class="textBody">Vivo</a>
+                  <a href="#!" class="textBody">Asus</a>
+                  <a href="#!" class="textBody">Masstel</a>
+                  <a href="#!" class="textBody">Nokia</a>
+                </div>
+              </div>
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">
+                  ĐỒNG HỒ THÔNG MINH
+                </h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Apple Watch</a>
+                  <a href="#!" class="textBody">Samsung</a>
+                  <a href="#!" class="textBody">Garmin</a>
+                  <a href="#!" class="textBody">Masstel</a>
+                  <a href="#!" class="textBody">Xiaomi</a>
+                  <a href="#!" class="textBody">Amazfit</a>
+                  <a href="#!" class="textBody">Huawei</a>
+                  <a href="#!" class="textBody">Oppo</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-price-mobile">
+              <h2 class="header__bottom-dropdown-heading">MỨC GIÁ</h2>
+              <div class="header__bottom-dropdown-price-content">
+                <a href="#!" class="textBody">Dưới 2 triệu</a>
+                <a href="#!" class="textBody">Từ 2 - 4 triệu</a>
+                <a href="#!" class="textBody">Từ 4 - 7 triệu</a>
+                <a href="#!" class="textBody">Từ 7 - 13 triệu</a>
+                <a href="#!" class="textBody">Trên 13 triệu</a>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-salehot-mobile">
+              <h2 class="header__bottom-dropdown-heading">BÁN CHẠY NHẤT</h2>
+              <div class="header__bottom-dropdown-salehot-content">
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/23/638204338060590865_samsung-galaxy-a34-dd-moi.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Samsung Galaxy A34 5G</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      7.370.000 ₫
+                    </p>
+                  </div>
+                </div>
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/24/638152739283440892_xiaomi-redmi-note-12-dd-bh.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Xiaomi Redmi Note 12 4GB-128GB</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      4.490.000 ₫
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/15/638197614615482029_H4_248x248%20(2).png"
+              alt=""
+              class="header__bottom-dropdown-img-mobile"
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-laptop"></i>
+          <a href="./../list-laptop/index.html" class="textBody">LAPTOP</a>
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-laptop">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">HÃNG SẢN XUẤT</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Apple (MacBook)</a>
+                  <a href="#!" class="textBody">Asus</a>
+                  <a href="#!" class="textBody">MSI</a>
+                  <a href="#!" class="textBody">HP</a>
+                  <a href="#!" class="textBody">Lenovo</a>
+                  <a href="#!" class="textBody">Acer</a>
+                  <a href="#!" class="textBody">Dell</a>
+                  <a href="#!" class="textBody">Gigabyte</a>
+                  <a href="#!" class="textBody">Masstel</a>
+                  <a href="#!" class="textBody">Microsoft (Surface)</a>
+                  <a href="#!" class="textBody">Chuwi</a>
+                  <a href="#!" class="textBody">LG</a>
+                </div>
+              </div>
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">PHẦN MỀM</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Diệt Virus</a>
+                  <a href="#!" class="textBody">Microsoft Office</a>
+                  <a href="#!" class="textBody">Windows</a>
+                  <a href="#!" class="textBody">Phần mềm khác</a>
+                </div>
+              </div>
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">MÁY IN</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">HP</a>
+                  <a href="#!" class="textBody">Canon</a>
+                  <a href="#!" class="textBody">Brother</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-price-laptop">
+              <h2 class="header__bottom-dropdown-heading">MỨC GIÁ</h2>
+              <div class="header__bottom-dropdown-price-content">
+                <a href="#!" class="textBody">Dưới 5 triệu</a>
+                <a href="#!" class="textBody">Từ 5 - 10 triệu</a>
+                <a href="#!" class="textBody">Từ 10 - 15 triệu</a>
+                <a href="#!" class="textBody">Từ 15 - 20 triệu</a>
+                <a href="#!" class="textBody">Từ 20 - 25 triệu</a>
+                <a href="#!" class="textBody">Từ 25 - 30 triệu</a>
+                <a href="#!" class="textBody">Trên 30 triệu</a>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/11/638168046946821573_F-H4_248x248-2.png"
+              class="header__bottom-dropdown-img-laptop"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <a href="./../list-table/index.html" class="textBody"
+            >MÁY TÍNH BẢNG</a
+          >
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-table">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">HÃNG SẢN XUẤT</h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Apple (iPad)</a>
+                  <a href="#!" class="textBody">Samsung</a>
+                  <a href="#!" class="textBody">Masstel</a>
+                  <a href="#!" class="textBody">Lenovo</a>
+                  <a href="#!" class="textBody">Xiaomi</a>
+                  <a href="#!" class="textBody">OPPO</a>
+                  <a href="#!" class="textBody">Coolpad</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-price-table">
+              <h2 class="header__bottom-dropdown-heading">MỨC GIÁ</h2>
+              <div class="header__bottom-dropdown-price-content">
+                <a href="#!" class="textBody">Dưới 2 triệu</a>
+                <a href="#!" class="textBody">Từ 2 triệu đến 5 triệu</a>
+                <a href="#!" class="textBody">Từ 5 triệu đến 8 triệu</a>
+                <a href="#!" class="textBody">Trên 8 triệu</a>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-salehot-table">
+              <h2 class="header__bottom-dropdown-heading">BÁN CHẠY NHẤT</h2>
+              <div class="header__bottom-dropdown-salehot-content">
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059452014421919_ipad-gen-9-wifi-dd.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >iPad Gen 9 2021 10.2 inch WiFi 64GB</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      7.190.000 ₫
+                    </p>
+                  </div>
+                </div>
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/4/19/638174908829566756_samsung-galaxy-tab-a8-wifi-dd.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Samsung Galaxy Tab A8 WiFi</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      5.490.000 ₫
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/11/638194008679769650_F-H4_248x248.png"
+              alt=""
+              class="header__bottom-dropdown-img-table"
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-brands fa-apple"></i>
+          <a href="./../list-apple/index.html" class="textBody">APPLE</a>
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-apple">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">
+                  CÁC SẢN PHẨM APPLE
+                </h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">iPhone</a>
+                  <a href="#!" class="textBody">iPad</a>
+                  <a href="#!" class="textBody">MacBook</a>
+                  <a href="#!" class="textBody">Apple Watch</a>
+                  <a href="#!" class="textBody">Apple Tai nghe</a>
+                  <a href="#!" class="textBody">iMac</a>
+                  <a href="#!" class="textBody">Mac Mini</a>
+                  <a href="#!" class="textBody">Sạc &amp; Cáp</a>
+                  <a href="#!" class="textBody">Ốp lưng &amp; Bao da</a>
+                  <a href="#!" class="textBody">Apple TV</a>
+                  <a href="#!" class="textBody">Chuột &amp; Trackpad</a>
+                  <a href="#!" class="textBody">Bàn phím</a>
+                  <a href="#!" class="textBody">AirTag</a>
+                  <a href="#!" class="textBody">Hàng dự án</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-salehot-apple">
+              <h2 class="header__bottom-dropdown-heading">BÁN CHẠY NHẤT</h2>
+              <div class="header__bottom-dropdown-salehot-content">
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107858631679725_iphone-14-pro-max-dd-1.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >iPhone 14 Pro Max 128GB</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      26.790.000 ₫
+                    </p>
+                  </div>
+                </div>
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107846050335072_iphone-13-dd-1.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >iPhone 13 128GB</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      16.890.000 ₫
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/24/638205160037505343_F-H4_248x248.jpg"
+              alt=""
+              class="header__bottom-dropdown-img-apple"
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item" style="position: relative">
+          <i class="fa-solid fa-desktop"></i>
+          <a href="./../list-pc/index.html" class="textBody">PC - LINH KIỆN</a>
+          <ul class="header__bottom-dropdown--2">
+            <li class="header__bottom-dropdown--2-item"><a href="#!">PC</a></li>
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Linh kiện</a>
+            </li>
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Màn hình</a>
+            </li>
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Xây dựng PC</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-headphones"></i>
+          <a href="#!" class="textBody">PHỤ KIỆN</a>
+          <div class="header__bottom-dropdown">
+            <div class="header__bottom-dropdown-company-acc">
+              <div class="header__bottom-dropdown-card">
+                <h2 class="header__bottom-dropdown-heading">
+                  CÁC SẢN PHẨM PHỤ KIỆN
+                </h2>
+                <div class="header__bottom-dropdown-card-content">
+                  <a href="#!" class="textBody">Router</a>
+                  <a href="#!" class="textBody">Bao da ốp lưng</a>
+                  <a href="#!" class="textBody">Sạc dự phòng</a>
+                  <a href="#!" class="textBody">Thẻ nhớ</a>
+                  <a href="#!" class="textBody">Phụ kiện Apple</a>
+                  <a href="#!" class="textBody">Miếng dán màn hình</a>
+                  <a href="#!" class="textBody">Loa</a>
+                  <a href="#!" class="textBody">USB - Ổ cứng</a>
+                  <a href="#!" class="textBody">Sạc cáp</a>
+                  <a href="#!" class="textBody">Tai nghe</a>
+                  <a href="#!" class="textBody">Chuột</a>
+                  <a href="#!" class="textBody">Bàn ghế gaming</a>
+                  <a href="#!" class="textBody">Balo - Túi xách</a>
+                  <a href="#!" class="textBody">TV BOX</a>
+                  <a href="#!" class="textBody">Phụ kiện khác</a>
+                  <a href="#!" class="textBody">Phụ kiện khẩu trang lọc khí</a>
+                  <a href="#!" class="textBody">Bàn phím</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__bottom-dropdown-salehot-acc">
+              <h2 class="header__bottom-dropdown-heading">BÁN CHẠY NHẤT</h2>
+              <div class="header__bottom-dropdown-salehot-content">
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/23/637968458856440391_HASP-LOA-BLUETOOTH-KARAOKE-SOUNDMAX-M22-AVT.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Combo Loa Bluetooth Karaoke Soundmax M22 + Mic không
+                      dây</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      1.845.000 ₫
+                    </p>
+                  </div>
+                </div>
+                <div class="header__bottom-dropdown-salehot-card">
+                  <img
+                    src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/1/14/637146111983706760_Trip10000_Black.jpg"
+                    alt=""
+                  />
+                  <div class="header__bottom-dropdown-salehot-card-content">
+                    <a
+                      class="header__bottom-dropdown-salehot-card-name"
+                      href="#!"
+                      >Pin sạc dự phòng UmeTravel 10000mAh TRIP10000 Quick
+                      Charge</a
+                    >
+                    <p class="header__bottom-dropdown-salehot-card-price">
+                      539.000 ₫
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/248x248/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/5/11/638194118597947831_F-H4_248x248.jpg"
+              alt=""
+              class="header__bottom-dropdown-img-acc"
+            />
+          </div>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-rotate-right"></i>
+          <a href="#!" class="textBody">MÁY CŨ GIÁ RẺ</a>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-house-chimney-window"></i>
+          <a href="#!" class="textBody">HÀNG GIA DỤNG</a>
+        </div>
+        <div class="header__bottom-item">
+          <i class="fa-solid fa-sim-card"></i>
+          <a href="#!" class="textBody">SIM & THẺ</a>
+        </div>
+        <div class="header__bottom-item" style="position: relative">
+          <i class="fa-brands fa-salesforce"></i>
+          <a href="#!" class="textBody">KHUYẾN MÃI</a>
+          <ul class="header__bottom-dropdown--2">
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Thông tin trao thưởng</a>
+            </li>
+            <li class="header__bottom-dropdown--2-item">
+              <a href="#!">Tất cả Khuyến Mãi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="listproduct">
+      <span class="listproduct__home container"
+        ><a href="#!" class="a__hover">Trang chủ</a>
+        <a href="#!" class="a__hover">Máy tính bảng</a>
+        <a a href="#!" class="a__hover">SamSung</a></span
+      >
+
+      <section class="listproduct__heading container">
+        <div class="listproduct__heading-name">
+          <h1>Samsung Galaxy S22 5G 128GB</h1>
+          <p class="listproduct__heading-stt">(No.00824253)</p>
+        </div>
+        <div class="listproduct__heading-row">
+          <ul class="listproduct__heading-list-stars">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+          </ul>
+          <a href="#!" class="listproduct__heading-evaluate"> 69 đánh giá </a>
+          <a href="#!" class="listproduct__heading-comment"> 417 Hỏi & đáp </a>
+          <a href="#!" class="listproduct__heading-compare">
+            <i class="fa-solid fa-plus"></i>
+            So sánh
+          </a>
+        </div>
+      </section>
+
+      <!-- content -->
+      <section class="listproduct__container container">
+        <div class="listproduct__container-col">
+          <div class="listproduct__container-list-img">
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749495327_samsung-galaxy-s22-bora-purple-1.jpg"
+              alt=""
+            />
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779748870189_samsung-galaxy-s22-bora-purple-2.jpg"
+              alt=""
+            />
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779746995258_samsung-galaxy-s22-bora-purple-3.jpg"
+              alt=""
+            />
+            <img
+              src="https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749182644_samsung-galaxy-s22-bora-purple-4.jpg"
+              alt=""
+            />
+          </div>
+          <div class="listproduct__container-list-icon">
+            <div class="listproduct__container-icon">
+              <i class="fa-solid fa-image"></i>
+              <p class="listproduct__container-icon-text">Xem thêm</p>
+            </div>
+            <div class="listproduct__container-icon">
+              <i class="fa-brands fa-youtube"></i>
+              <p class="listproduct__container-icon-text">Video trên tay</p>
+            </div>
+            <div class="listproduct__container-icon">
+              <i class="fa-solid fa-box"></i>
+              <p class="listproduct__container-icon-text">Trong hộp có gì</p>
+            </div>
+          </div>
+          <div class="listproduct__container-parameters">
+            <div class="listproduct__container-parameter">
+              <i class="fa-solid fa-microchip"></i>
+              <p>Apple A13 Bionic</p>
+            </div>
+            <div class="listproduct__container-parameter">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <p>6.1 inch</p>
+            </div>
+            <div class="listproduct__container-parameter">
+              <i class="fa-solid fa-sd-card"></i>
+              <p>4 GB</p>
+            </div>
+            <div class="listproduct__container-parameter">
+              <i class="fa-solid fa-hard-drive"></i>
+              <p>64 GB</p>
+            </div>
+          </div>
+          <div class="listproduct__container-sub">
+            <i class="fa-solid fa-award"></i>
+            <p>Hàng chính hãng - Bảo hành 12 Tháng</p>
+            <i class="fa-solid fa-truck"></i>
+            <p>Giao hàng toàn quốc</p>
+          </div>
+        </div>
+
+        <div class="listproduct__container-col">
+          <div class="listproduct__container-prices">
+            <div class="listproduct__container-prices--left">
+              <p class="listproduct__container-price">16.790.000₫</p>
+              <p class="listproduct__container-un-price">18.990.000₫</p>
+            </div>
+            <div class="listproduct__container-prices--right">
+              <p>Trả góp chỉ từ</p>
+              <p><span> 2.226.000₫</span>/tháng</p>
+            </div>
+          </div>
+          <div class="listproduct__container-type-gb">
+            <div class="listproduct__container-type-gb-card">
+              <div class="listproduct__container-gb">
+                <input
+                  type="radio"
+                  name="listproduct__container-gb-input"
+                  id=""
+                />
+                <p>128GB</p>
+              </div>
+              <p class="listproduct__container-gb-price">16.790.000₫</p>
+            </div>
+            <div class="listproduct__container-type-gb-card">
+              <div class="listproduct__container-gb">
+                <input
+                  type="radio"
+                  name="listproduct__container-gb-input"
+                  id=""
+                />
+                <p>256GB</p>
+              </div>
+              <p class="listproduct__container-gb-price">19.990.000₫</p>
+            </div>
+            <div class="listproduct__container-type-gb-card">
+              <div class="listproduct__container-gb">
+                <input
+                  type="radio"
+                  name="listproduct__container-gb-input"
+                  id=""
+                />
+                <p>512GB</p>
+              </div>
+              <p class="listproduct__container-gb-price">22.990.000₫</p>
+            </div>
+          </div>
+          <div class="listproduct__container-list-color-product">
+            <div class="listproduct__container-list-color-product-box">
+              <div class="listproduct__container-list-color-product-img">
+                <img
+                  src="https://images.fpt.shop/unsafe/fit-in/116x76/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/30/637842470238124787_iphone-13-blue.jpg"
+                  alt=""
+                /><i class="fa-solid fa-check"></i>
+              </div>
+              <p>Xanh</p>
+            </div>
+            <div class="listproduct__container-list-color-product-box">
+              <div class="listproduct__container-list-color-product-img">
+                <img
+                  src="https://images.fpt.shop/unsafe/fit-in/116x76/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/30/637842470238437307_iphone-13-pink.jpg"
+                  alt=""
+                /><i class="fa-solid fa-check"></i>
+              </div>
+              <p>Hồng</p>
+            </div>
+            <div class="listproduct__container-list-color-product-box">
+              <div class="listproduct__container-list-color-product-img">
+                <img
+                  src="https://images.fpt.shop/unsafe/fit-in/116x76/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/30/637842470238124787_iphone-13-green.jpg"
+                  alt=""
+                />
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <p>Xanh lá</p>
+            </div>
+            <div class="listproduct__container-list-color-product-box">
+              <div class="listproduct__container-list-color-product-img">
+                <img
+                  src="https://images.fpt.shop/unsafe/fit-in/116x76/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/30/637842470237968538_iphone-13-blavk.jpg"
+                  alt=""
+                />
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <p>Đen</p>
+            </div>
+          </div>
+          <div class="listproduct__container-promotion">
+            <p class="listproduct__container-promotion-text">
+              Chọn 1 trong 2 khuyến mãi sau
+            </p>
+            <div class="listproduct__container-promotion-select">
+              <div class="listproduct__container-promotion-select-row">
+                <input
+                  type="radio"
+                  name="listproduct__container-promotion-select"
+                  id=""
+                />
+                <p>Giảm ngay 1.000.000đ áp dụng đến 08/06</p>
+              </div>
+              <div class="listproduct__container-promotion-select-row">
+                <input
+                  type="radio"
+                  name="listproduct__container-promotion-select"
+                  id=""
+                />
+                <p>Trả góp 0%</p>
+              </div>
+            </div>
+            <div class="listproduct__container-promotion-endow">
+              <p class="listproduct__container-promotion-endow-text">
+                Ưu đãi thêm
+              </p>
+              <div class="listproduct__container-promotion-endow-row">
+                <div class="listproduct__container-promotion-check">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <p>Giảm đến 30% hệ sinh thái Apple</p>
+              </div>
+              <div class="listproduct__container-promotion-endow-row">
+                <div class="listproduct__container-promotion-check">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <p>
+                  Thu cũ đổi mới trợ giá ngay đến 2 triệu (SmartExchange)
+                  <span><a href="#!" class="a__hover">Xem chi tiết</a></span>
+                </p>
+              </div>
+              <div class="listproduct__container-promotion-endow-row">
+                <div class="listproduct__container-promotion-check">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <p>
+                  Sim MobiFone Siêu Data 1T giá chỉ 166.000đ khi mua kèm máy
+                </p>
+              </div>
+              <div class="listproduct__container-promotion-endow-row">
+                <div class="listproduct__container-promotion-check">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <p>
+                  Tặng 18 triệu phần quà 100% trúng
+                  <span><a href="#!" class="a__hover">Xem chi tiết</a></span>
+                </p>
+              </div>
+              <div class="listproduct__container-promotion-endow-row">
+                <div class="listproduct__container-promotion-check">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <p>
+                  Giảm đến 20% củ sạc nhanh 25W
+                  <span><a href="#!" class="a__hover">Xem chi tiết</a></span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="listproduct__container-feature">
+            <div class="listproduct__container-feature-box">
+              <div class="listproduct__container-feature-img">
+                <img
+                  src="https://images.fpt.shop/unsafe/fit-in/48x48/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/4/637846629514363952_ic-tp-bank.jpg"
+                  alt=""
+                />
+                <input
+                  type="checkbox"
+                  name="listproduct__container-feature"
+                  id=""
+                />
+              </div>
+              <div class="listproduct__container-feature-content">
+                <h3 class="listproduct__container-feature-name">EVO</h3>
+                <p>
+                  Giảm ngay 20% tối đa 1.000.000đ khi mở thẻ đồng thương hiệu
+                  TPBANK EVO
+                </p>
+                <a href="#!" class="a__hover">Xem chi tiết</a>
+              </div>
+            </div>
+            <div class="listproduct__container-feature-box">
+              <div class="listproduct__container-feature-img">
+                <img
+                  src="https://images.fpt.shop/unsafe/fit-in/48x48/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/14/637828748513420662_Kredio.jpg"
+                  alt=""
+                />
+                <input
+                  type="checkbox"
+                  name="listproduct__container-feature"
+                  id=""
+                />
+              </div>
+              <div class="listproduct__container-feature-content">
+                <h3 class="listproduct__container-feature-name">
+                  Thanh toán Kredivo
+                </h3>
+                <p>
+                  Giảm ngay 5% tối đa 500.000 đồng khi thanh toán trả góp 6/12
+                  tháng qua Kredivo
+                </p>
+                <a href="#!" class="a__hover">Xem chi tiết</a>
+              </div>
+            </div>
+          </div>
+          <div class="listproduct__container-btn">
+            <button class="listproduct__container-btn--buynow">
+              <h3>MUA NGAY</h3>
+              <p>Giao hàng miễn phí hoặc nhận tại shop</p>
+            </button>
+            <div class="listproduct__container-btn-box">
+              <button class="listproduct__container-btn--blue">
+                <h3>TRẢ GÓP 0%</h3>
+                <p>Duyệt nhanh qua điện thoại</p>
+              </button>
+              <button class="listproduct__container-btn--blue">
+                <h3>TRẢ GÓP QUA THẺ</h3>
+                <p>Visa, Master Card, JCB, AMEX</p>
+              </button>
+            </div>
+          </div>
+          <div class="listproduct__container-hotline">
+            <p>Gọi <span>1800-6601</span> để được tư vấn mua hàng (Miễn phí)</p>
+            <a href="#!" class="a__hover">
+              <i class="fa-solid fa-location-dot"></i>
+              Tìm shop có hàng gần nhất
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- comment -->
+      <section class="listproduct__comment">
+        <div class="listproduct__comment-container container">
+          <div class="listproduct__comment-heading">
+            <h2 class="listproduct__comment-name">Hỏi & Đáp</h2>
+            <div class="listproduct__comment-search">
+              <input
+                type="search"
+                name=""
+                id=""
+                placeholder="Tìm theo nội dung, người gửi ..."
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="listproduct__comment-chatbox">
+            <textarea
+              name=""
+              id=""
+              rows="3"
+              placeholder="Nhập nội dung bình luận (tiếng việt có dấu)..."
+              spellcheck="false"
+            >
+            </textarea>
+            <button class="listproduct__comment-chatbox-btn">
+              GỬI BÌNH LUẬN
+            </button>
+          </div>
+          <div class="listproduct__comment-views">
+            <p><span>3144 hỏi đáp về</span> “iPhone 13 256GB”</p>
+            <div class="listproduct__comment-views-arrange">
+              <p>Sắp xếp theo</p>
+              <select name="" id="">
+                <option value="" selected>
+                  <p>Mới nhất</p>
+                </option>
+                <option value="" selected>
+                  <p>Hữu ích nhất</p>
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="listproduct__comment-peopel">
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="listproduct__comment-box">
+              <div class="listproduct__comment-user">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-users-avater"
+                />
+                <div class="listproduct__comment-user-content">
+                  <h4 class="listproduct__comment-user-name">Quang</h4>
+                  <p class="listproduct__comment-user-text">
+                    Bản 256G Xanh Dương TP Ninh Bình có hàng không Shop
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="listproduct__comment-admin">
+                <img
+                  src="./../../img/iconhd.png"
+                  alt=""
+                  class="listproduct__comment-admin-avater"
+                />
+                <div class="listproduct__comment-admin-content">
+                  <div class="listproduct__comment-admin-name">
+                    <h4>Quang</h4>
+                    <div class="listproduct__comment-admin-permission">
+                      <p>Quản trị viên</p>
+                    </div>
+                  </div>
+                  <p class="listproduct__comment-admin-text">
+                    Chào Quang, <br />
+
+                    Dạ sản phẩm đang tạm hết hàng tại khu vực này nhưng vẫn còn
+                    hàng trên hệ thống bạn nha, bạn có thể đặt hàng, bên mình sẽ
+                    hỗ trợ chuyển hàng về bạn nhé. Để đặt hàng bạn vui lòng để
+                    lại thông tin liên hệ (Tên, số điện thoại), bên mình sẽ chủ
+                    động liên hệ hỗ trợ cho bạn ạ. <br />
+
+                    Mong nhận được phản hồi từ bạn!
+                  </p>
+                  <ul>
+                    14 giờ trước
+                    <li><a href="#!" class="a__hover">thích</a></li>
+                    <li><a href="#!" class="a__hover">trả lời</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer__main">
+        <div class="footer__main-container container">
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <a href="#!">Giới thiệu về công ty</a>
+              </li>
+              <li>
+                <a href="#!">Chính sách bảo mật</a>
+              </li>
+              <li>
+                <a href="#!">Quy chế hoạt động</a>
+              </li>
+              <li>
+                <a href="#!">Kiểm tra hóa đơn điện tử</a>
+              </li>
+              <li>
+                <a href="#!">Tra cứu thông tin bảo hành</a>
+              </li>
+              <li>
+                <a href="#!">Câu hỏi thường gặp mua hàng</a>
+              </li>
+              <li>
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img1.png"
+                  alt=""
+                />
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img2.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <a href="#!">Tin tuyển dụng</a>
+              </li>
+              <li>
+                <a href="#!">Tin khuyến mãi</a>
+              </li>
+              <li>
+                <a href="#!">Hướng dẫn mua online</a>
+              </li>
+              <li>
+                <a href="#!">Hướng dẫn mua trả góp</a>
+              </li>
+              <li>
+                <a href="#!">Chính sách trả góp</a>
+              </li>
+              <li>
+                <a href="#!"> </a>
+              </li>
+              <li>
+                <h3>Chứng nhận:</h3>
+                <div>
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img3.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img4.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img5.png"
+                    alt=""
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <a href="#!">Hệ thống cửa hàng</a>
+              </li>
+              <li>
+                <a href="#!"> Chính sách đổi trả</a>
+              </li>
+              <li>
+                <a href="#!">Hệ thống bảo hành</a>
+              </li>
+              <li>
+                <a href="#!">Giới thiệu máy đổi trả</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <h3>Tư vấn mua hàng (Miễn phí)</h3>
+                <p><span>1800 6601</span>(Nhánh 1)</p>
+              </li>
+              <li>
+                <h3>Hỗ trợ kỹ thuật</h3>
+                <p><span>1800 6601</span>(Nhánh 2)</p>
+              </li>
+              <li>
+                <h3>Góp ý, khiếu nại (8h00 - 22h00)</h3>
+                <p><span>1800 6616</span></p>
+              </li>
+              <li>
+                <h3>Hỗ trợ thanh toán:</h3>
+                <div>
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img6.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img7.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img8.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-imgamex.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img9.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img11.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img12.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img10.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img15.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img13.png"
+                    alt=""
+                  />
+                  <img
+                    src="https://fptshop.com.vn/Content/v4/images/ft-img14.png"
+                    alt=""
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__main-col">
+            <ul>
+              <li>
+                <h3>Website cùng FPT Retail:</h3>
+              </li>
+              <li>
+                <p>Cửa hàng uỷ quyền bởi Apple:</p>
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img16.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <p>Trung tâm bảo hành uỷ quyền Apple:</p>
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img17.png"
+                  alt=""
+                />
+              </li>
+              <li>
+                <p>Chuỗi nhà thuốc:</p>
+                <img
+                  src="https://fptshop.com.vn/Content/v4/images/ft-img18.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__sub">
+        <div class="footer__sub-container container">
+          <p>
+            © 2007 - 2023 Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT / Địa chỉ: 261
+            - 263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh / GPĐKKD số 0311609355 do
+            Sở KHĐT TP.HCM cấp ngày 08/03/2012. <br />
+            GP số 47/GP-TTĐT do sở TTTT TP HCM cấp ngày 02/07/2018. Điện thoại:
+            <span>(028) 7302 3456</span>. Email:
+            <span>fptshop@fpt.com.vn</span>. Chịu trách nhiệm nội dung: Nguyễn
+            Trịnh Nhật Linh.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./../../javascript/app.js"></script>
+  </body>
+</html>
